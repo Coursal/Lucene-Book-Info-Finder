@@ -9,7 +9,7 @@ import org.apache.lucene.analysis.core.WhitespaceAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 
-//5
+
 public class BookInfoFinder
 {
     public void print_tokens_and_offsets(String label, int start_offset, int end_offset, TokenStream token_stream, OffsetAttribute offset_attribute, CharTermAttribute char_term_attribute) throws IOException
