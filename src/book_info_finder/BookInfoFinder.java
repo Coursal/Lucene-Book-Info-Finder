@@ -56,7 +56,7 @@ public class BookInfoFinder
         int start_offset;
         int end_offset = offset_attribute.endOffset();
         
-        while(token_stream.incrementToken() && end_offset < 1000) 
+        while(token_stream.incrementToken() && end_offset < 1000)   //a .txt book file's info are always at the beginning of the file
         {
             start_offset = offset_attribute.startOffset();
             end_offset = offset_attribute.endOffset();
