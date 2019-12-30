@@ -12,11 +12,11 @@ A Lucene 8.0.0 API based java application that given a `.txt` file of a book, re
 
 ### Examples
 #### Moby Dick
-![](http://i68.tinypic.com/8y94wn.png)
+![](examples/example_1.png)
 #### Metamorphosis
-![](http://i67.tinypic.com/do5na0.png)
+![](examples/example_2.png)
 #### The Odyssey
-![](http://i65.tinypic.com/2w5j5o3.png)
+![](examples/example_3.png)
 
 
 `.txt` book files taken from [Project Gutenberg](http://www.gutenberg.org/).
